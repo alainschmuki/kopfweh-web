@@ -69,3 +69,16 @@ html,body{overflow-x:hidden}.hero .wrap>*{min-width:0}
 .zones{width:340px}
 .wait input{min-width:0}
 @media(max-width:900px){.stage .head{display:none}}
+.ios-set{position:absolute;inset:0;padding:48px 12px 0;background:#f2f2f7;color:#000;font-family:-apple-system,system-ui,sans-serif;text-align:left}
+.ios-set .t{font-size:24px;font-weight:700;padding:0 6px 14px}
+.ios-set .h{font-size:11px;text-transform:uppercase;color:#6d6d72;padding:0 10px 5px}
+.ios-set ul{list-style:none;margin:0;padding:0;background:#fff;border-radius:10px}
+.ios-set li{display:flex;align-items:center;justify-content:space-between;padding:9px 10px;font-size:13.5px;border-top:.5px solid #d1d1d6;color:inherit}
+.ios-set li:first-child{border-top:0}
+.ios-set li::before{display:none}
+.ios-set .tg{flex:none;width:38px;height:23px;border-radius:12px;background:#e5e5ea;position:relative}
+.ios-set .tg::after{content:"";position:absolute;top:2px;left:2px;width:19px;height:19px;border-radius:50%;background:#fff;box-shadow:0 1px 3px rgba(0,0,0,.25)}
+.ios-set .tg.on{background:#34C759}
+.ios-set .tg.on::after{left:17px}
+.ios-set .f{font-size:11px;color:#6d6d72;padding:6px 10px}
+@media (prefers-color-scheme:dark){.ios-set{background:#000;color:#fff}.ios-set ul{background:#1c1c1e}.ios-set li{border-top-color:#38383a}.ios-set .tg{background:#39393d}.ios-set .tg.on{background:#30D158}.ios-set .h,.ios-set .f{color:#8d8d93}}
