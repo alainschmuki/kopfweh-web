@@ -69,3 +69,5 @@ html,body{overflow-x:hidden}.hero .wrap>*{min-width:0}
 .zones{width:340px}
 .wait input{min-width:0}
 @media(max-width:900px){.stage .head{display:none}}
+
+.mock{width:250px;height:auto;display:block;filter:drop-shadow(0 30px 40px rgba(20,22,40,.35))}
