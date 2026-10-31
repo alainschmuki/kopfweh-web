@@ -71,3 +71,5 @@ html,body{overflow-x:hidden}.hero .wrap>*{min-width:0}
 @media(max-width:900px){.stage .head{display:none}}
 
 .mock{width:250px;height:auto;display:block;filter:drop-shadow(0 30px 40px rgba(20,22,40,.35))}
+.grid4.g3{grid-template-columns:repeat(3,1fr)}
+@media(max-width:860px){.grid4.g3{grid-template-columns:1fr}}
