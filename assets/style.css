@@ -73,3 +73,8 @@ html,body{overflow-x:hidden}.hero .wrap>*{min-width:0}
 .mock{width:250px;height:auto;display:block;filter:drop-shadow(0 30px 40px rgba(20,22,40,.35))}
 .grid4.g3{grid-template-columns:repeat(3,1fr)}
 @media(max-width:860px){.grid4.g3{grid-template-columns:1fr}}
+nav .lang{margin-left:auto;display:flex;align-items:center;gap:6px;font-size:13px;font-weight:500;letter-spacing:.02em}
+nav .lang a{color:var(--tx2);padding:4px 2px}
+nav .lang a[aria-current]{color:var(--tx);font-weight:650}
+nav .lang span{color:var(--line)}
+@media(min-width:721px){nav .lang{margin-left:22px}}
