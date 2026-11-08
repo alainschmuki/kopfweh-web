@@ -42,7 +42,7 @@ section{padding:96px 0}.alt{background:var(--bg2)}
 .zones img{width:100%;display:block}.zones .z-d{display:none}
 @media (prefers-color-scheme:dark){.zones .z-l{display:none}.zones .z-d{display:block}}
 .grid4{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:40px}.grid4 .card h3{font-size:18px}.grid4 .card p{font-size:15px}
-.ico{width:40px;height:40px;border-radius:11px;display:grid;place-items:center;margin-bottom:14px;font-size:20px;color:#fff}
+.lico{display:block;width:36px;height:36px;margin:0 0 14px;color:#FF8A5C}
 .privacy{background:linear-gradient(160deg,var(--navy),var(--navy2));color:#fff;border-radius:36px;padding:72px 56px;position:relative;overflow:hidden}
 .privacy::after{content:"";position:absolute;right:-120px;bottom:-160px;width:520px;height:520px;border-radius:50%;background:radial-gradient(closest-side,rgba(242,115,95,.45),rgba(61,123,224,.25) 60%,transparent)}
 .privacy .lead{color:#c9cbe0}.privacy .pgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:28px;margin-top:40px;position:relative;z-index:1}
