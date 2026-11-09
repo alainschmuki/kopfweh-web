@@ -1,8 +1,8 @@
 <!doctype html><html lang="de-CH"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Grindweh – Kopfschmerztagebuch fürs iPhone</title><meta name="description" content="Grindweh – das Kopfschmerztagebuch fürs iPhone. Schnell erfasst, Muster erkennen, Daten bei dir: iPhone und private iCloud."><link rel="icon" href="assets/icon.png"><link rel="stylesheet" href="assets/style.css"><link rel="alternate" hreflang="de-CH" href="https://grindweh.app/"><link rel="alternate" hreflang="fr-CH" href="https://grindweh.app/index-fr.html"><link rel="alternate" hreflang="it-CH" href="https://grindweh.app/index-it.html"><link rel="alternate" hreflang="en" href="https://grindweh.app/index-en.html"><link rel="alternate" hreflang="x-default" href="https://grindweh.app/"><style>
 .mk{--phone:250px;width:calc(var(--phone) * 620 / 500);height:calc(var(--phone) * 1167 / 500);display:block;margin:calc(var(--phone) * -30 / 500) calc(var(--phone) * -60 / 500) calc(var(--phone) * -110 / 500) calc(var(--phone) * -60 / 500);aspect-ratio:620 / 1167}
-.mk.hero{--phone:290px}
+.mk.hero{--phone:290px;position:absolute;left:calc(var(--phone) * -60 / 500);top:calc(var(--phone) * -30 / 500);width:calc(var(--phone) * 620 / 500);height:auto;margin:0;aspect-ratio:620 / 1167;object-fit:contain;max-width:none;max-height:none}
 .stage>picture,.feat .vis>picture{width:250px;height:calc(250px * 1027 / 500);flex:none;min-height:0;overflow:visible}
-.stage>picture:has(.mk.hero){width:290px;height:calc(290px * 1027 / 500)}
+.stage>picture:has(.mk.hero){position:relative;display:block;width:290px;height:calc(290px * 1027 / 500);flex:none;align-self:center;min-height:0;overflow:visible}
 .hero{overflow:visible}
 .auch{display:grid;grid-template-columns:repeat(5,1fr);gap:16px;margin-top:40px}
 .auch .card{padding:22px 20px}
@@ -18,7 +18,7 @@
 <p class="lead">Das Kopfschmerztagebuch fürs iPhone. In wenigen Sekunden erfasst.</p>
 <div class="ctas"><span class="badge"><span><small>Bald im</small>App Store</span></span></div>
 <p class="note">iPhone ab iOS 18 · Tagebuch kostenlos · Grindweh Pro einmalig CHF 5</p></div>
-<div class="stage"><div class="glow"></div><picture><source srcset="assets/shots/de/mock_uebersicht_dark_dark_500.webp" media="(prefers-color-scheme: dark)"><img class="mk hero" src="assets/shots/de/mock_uebersicht_light_bright_500.webp" alt="" loading="lazy" width="620" height="1167"></picture></div></div></header>
+<div class="stage"><div class="glow"></div><picture><source srcset="assets/shots/de/mock_uebersicht_dark_dark_500.webp" media="(prefers-color-scheme: dark)"><img class="mk hero" src="assets/shots/de/mock_uebersicht_light_bright_500.webp" alt="" loading="lazy"></picture></div></div></header>
 
 <section id="warum"><div class="wrap" style="max-width:820px"><h2>Warum Grindweh?</h2>
 <p class="lead">Auf Schweizerdeutsch heisst der Kopf Grind. Tut er weh, hat man Grindweh.</p>
